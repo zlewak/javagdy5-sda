@@ -18,8 +18,56 @@
 
 <!--    Implementujemy Strukturalne-->
 <!--    Decorator - zaimplementujemy robiac kawe-->
-
+<!--        Zadanie domowe-->
 <!--    Adapter - zaimplementujecie w domu na podstawie karty sd i przejsciowki usb-->
+
+<!--    Zajecia drugie-->
+<!--    Strukturalne-->
+<!--    Bridge - style dla stron-->
+<!--    Behavioralne-->
+<!--    Observer - przyklad szukania pracy-->
+<!--    Command - wlaczania zarowki (dodatkowe zadanie - kelner)-->
+<!--    Chain of resposnsibility - przyklad wydawania pieniedzy z portfela-->
+
+<!--    Do domu-->
+<!--    Facade - przyklad uruchamianie komputera-->
+<!--            Facada posiada jeden przyckis startPC-->
+<!--            Pod spodem - uruchamiany jest zasilacz-->
+<!--                        -uruchamiany jest ekran-->
+<!--                        -uruchamiana jest klawiatura-->
+<!--            Computer facada = new Computer();-->
+<!--            Computer-->
+<!--                -pole z zasilaczem-->
+<!--                -pole z ekranem-->
+<!--                -pole z klawiatura-->
+<!--                -metoda ktora wszystko uruchamia-->
+<!--            facada.startPC(); wypisze do logga-->
+<!--            "powerSupply is on"-->
+<!--            "monitor is on"-->
+<!--            "keyboard is on"-->
+<!--    Command - w postaci kelnera;-->
+<!--            Restauracja - -->
+<!--            Mamy zamowienie-->
+<!--            Mamy kelnera-->
+<!--            Mamy kucharza-->
+<!--            Otwieramy restauracje-->
+<!--            Tworzymy zamowienie-->
+<!--                Kelner otrzymuje zamowienie-->
+<!--                Kelner ma metody-->
+<!--                przyjmijZamowienie(Zamowienie)-->
+<!--                wydajZamowienie-->
+<!--                przyjmij napiwek-->
+<!--                zaniesDoKucharza-->
+<!--            Kucharz otrzymuje-->
+<!--                Kucharz new Kucharz(Zamowienie)-->
+<!--                kucharz gotouje-->
+<!--                kucharz smakuje-->
+<!--        Memento w formie kalkulatora-->
+<!--                Mozliwosc zapisania ostatniego obliczniea-->
+<!--                M- - odejmuje zapisane wartosci-->
+<!--                M+ - dodaje zapisane wartosci-->
+
+
 
     <properties>
         <maven.compiler.target>11</maven.compiler.target>

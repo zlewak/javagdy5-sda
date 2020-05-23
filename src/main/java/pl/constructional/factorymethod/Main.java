@@ -12,6 +12,9 @@ public class Main {
 
         Hamburger vegeBurger = Hamburger.vegeBurger();
         System.out.println(vegeBurger);
+
+        Hamburger newBurger= Hamburger.chefsBurger();
+
         //kontrole nad tworzeniem i obiektami ma tylko klasa Hamburgera
         //nie wolno wywolac Hamburger burge = new Hamburger() - poniewaz konstruktor jest ukryty
         //nie wolno tez vegeBurger.setSauce("ostry") - poniewaz pola sa niedostepne

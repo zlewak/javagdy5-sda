@@ -36,6 +36,16 @@ public class Hamburger {
         return burger;
     }
 
+    /**
+     * @return Zwraca nam burger szefa
+     * Przyklad
+     *
+     *         burger.price = 10;
+     *         burger.bun = "Pszenna";
+     *         burger.name = "Burger Szefa";
+     *         burger.sauce = "Lagodny";
+     *         burger.cheese = false;
+     */
     public static Hamburger chefsBurger(){
         Hamburger burger = new Hamburger();
         burger.price = 10;
