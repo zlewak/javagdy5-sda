@@ -66,6 +66,12 @@
 <!--                Mozliwosc zapisania ostatniego obliczniea-->
 <!--                M- - odejmuje zapisane wartosci-->
 <!--                M+ - dodaje zapisane wartosci-->
+<!--            Mediator - w formie czatu tekstowego-->
+<!--                    -mozliwosc rozmow miedzy dwiema osobami-->
+<!--                TemplateMethod = w formie budowania domku-->
+<!--                    -najpierw stawiamy fundamenty-->
+<!--                    -potem sciany-->
+<!--                    -potem dach-->
 
 
 
